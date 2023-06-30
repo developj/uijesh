@@ -1,0 +1,28 @@
+{
+  "name": "@uijesh/sweetsoupplus",
+  "version": "1.0.0",
+  "description": "An interesting ui library",
+  "main": "src/index.ts",
+  "files": ["src/**/*"],
+  "repository": {
+    "type": "git",
+    "url": "https://jeshurun01@bitbucket.org/uijesh/ui.git"
+  },
+  "bugs": {
+    "url": "https://jeshurun01@bitbucket.org/uijesh/ui/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeshurun",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2",
+    "@types/react": "^18.2.14",
+    "@types/styled-components": "^5.1.26"
+  }
+}
