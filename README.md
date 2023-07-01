@@ -17,5 +17,10 @@ To use the UI Button component in your application, follow these steps:
 1. Include the necessary CSS and JavaScript files in your project. These files can be obtained from the provided package or downloaded from the official website.
 
    ```html
-   <link rel="stylesheet" href="button.css">
-   <script src="button.js"></script>
+   import { Button } from "uijesh-sweetsoupplus";
+
+   function YourComponent(){
+      return(
+         <Button/>
+      )
+   }
