@@ -1,6 +1,6 @@
 {
   "name": "@uijesh/sweetsoupplus",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "An interesting ui library",
   "main": "src/index.ts",
   "files": [
@@ -14,7 +14,8 @@
     "url": "https://github.com/developj/uijesh/issues"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "author": "Jeshurun",
   "license": "ISC",
