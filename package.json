@@ -1,11 +1,9 @@
 {
-  "name": "@uijesh/sweetsoupplus",
-  "version": "0.0.0-development",
+  "name": "uijesh-sweetsoupplus",
+  "version": "1.0.0",
   "description": "An interesting ui library",
-  "main": "src/index.ts",
-  "files": [
-    "src/**/*"
-  ],
+  "main": "dist/index.ts",
+  "module": "dist/index.es.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/developj/uijesh"
@@ -15,15 +13,27 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "semantic-release": "semantic-release"
+    "build-lib": "rollup -c"
   },
   "author": "Jeshurun",
   "license": "ISC",
   "devDependencies": {
+    "@babel/preset-react": "^7.22.5",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-typescript": "^11.1.2",
     "@tsconfig/recommended": "^1.0.2",
     "@types/react": "^18.2.14",
     "@types/styled-components": "^5.1.26",
     "react": "^18.2.0",
+    "rollup": "^2.79.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.6.0",
     "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
   }
 }
